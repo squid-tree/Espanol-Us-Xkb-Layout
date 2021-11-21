@@ -1,0 +1,24 @@
+default partial alphanumeric_keys
+xkb_symbols "esus" {
+
+    include "us(basic)"
+
+    name[Group1]= "English With Spanish Characters (Custom Layout)";
+    
+    key <AE01> {	[	  1,	exclam,    exclamdown 		]	};
+
+    key <AD03> {	[	  e,	E,    eacute,    Eacute		]	};   
+    key <AD06> {	[	  y,	Y,    udiaeresis,    Udiaeresis	]	};
+    key <AD07> {	[	  u,	U,    uacute,    Uacute   	]	};
+    key <AD08> {	[	  i,	I,    iacute,    Iacute		]	};
+    key <AD09> {	[	  o,	O,    oacute,    Oacute		]	};
+
+    key <AC01> {	[	  a,	A,    aacute,    Aacute 	]	};
+
+    key <AB06> {	[	  n,	N,    ntilde,    Ntilde		]	};
+    key <AB10> {	[     slash,	question,    questiondown  	]	};
+
+    include "level3(ralt_switch)"
+};
+
+

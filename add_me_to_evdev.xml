@@ -1,0 +1,15 @@
+    <layout>
+       <configItem>
+         <name>esus</name>
+    
+         <shortDescription>esus</shortDescription>
+         <description>English With Spanish Characters (Custom Layout)</description>
+         <languageList>
+                  <iso639Id>spa</iso639Id>
+                  <iso639Id>eng</iso639Id>
+         </languageList>
+       </configItem>
+       <variantList>
+       </variantList>
+     </layout>
+
